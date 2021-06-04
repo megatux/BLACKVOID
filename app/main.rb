@@ -2,8 +2,6 @@
 # Void, Roguelike-Survival game done in over 6 days with Ruby via DRGTK for DRGTK classics jam: Gauntlet Edition
 # Updated: 4/June/2021
 
-# TODO: Fix touch for Android! :(
-
 # Background: https://wallpaperaccess.com/download/black-space-1268183
 
 # Used stuff from Kenney (https://www.kenney.nl)
