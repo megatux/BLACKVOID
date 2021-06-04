@@ -45,7 +45,7 @@ Q: What this game made with?
 A: This game made with DragonRuby Game Toolkit in Ruby programming language, It uses the fast and minimal Ruby implementation mruby and well-known library SDL2, You can get it here: https://dragonruby.org/toolkit/game
 
 Q: Can i have source code?
-A: Even i didn't uploaded it to GitHub, Working on fixing touch for Android and if well i would release and put link so come back later :)
+A: Yes it's on GitHub and licensed under MIT, From here: https://github.com/Rabios/BLACKVOID
 
 ================================================================
 BLACKVOID - GAME CONTROLS
@@ -68,14 +68,16 @@ Rotate/Turn Right => One of following:
 Shoot Forward => One of following:
 
 1. Up arrow key
-2. Joystick A button
-3. DPAD up button
+2. W key
+3. Joystick A button
+4. DPAD up button
 
 Shoot Backward => One of following:
 
 1. Down arrow key
-2. Joystick B button
-3. DPAD down button
+2. S key
+3. Joystick B button
+4. DPAD down button
 
 ================================================================
 BLACKVOID - SPECIAL THANKS
