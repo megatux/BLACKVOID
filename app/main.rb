@@ -1198,7 +1198,6 @@ def mobile_selection_input args
     if touch_press(args, 0)
       args.state.main_menu_recs.length.times.map do |i|
         if touch_rec(args, 0).intersect_rect?(args.state.main_menu_recs[i])
-          play_select_sound args
           if (i == 0)
             if args.state.played_game_previously == 1
               play_select_sound args
@@ -1208,6 +1207,7 @@ def mobile_selection_input args
               args.state.current_scene = 4
             end
           elsif (i == 1)
+            play_back_sound args
             args.state.game_difficulty_selection = 0
         
             if (args.state.played_game_previously == 0)
@@ -1216,10 +1216,14 @@ def mobile_selection_input args
         
             args.state.current_scene = 3
           elsif (i == 2)
+            play_select_sound args
             args.state.current_scene = 2
           elsif (i == 3)
+            play_select_sound args
             args.state.current_scene = 1
           elsif (i == 4)
+            play_select_sound args
+            
             if $gtk.platform != "Emscripten"
               $gtk.exit
             end
