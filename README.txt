@@ -11,7 +11,7 @@ The game is made for DragonRuby Classics Jam: Gauntlet Edition game jam, And it 
 BLACKVOID - GAMEPLAY
 ================================================================
 
-You play as ship and as the game goal is to protect the ship, You will shoot the asteroids to prevent your ship to crash.
+You play as ship and as the game goal is to protect the ship, You will shoot the asteroids to prevent your ship from being crashed.
 
 The asteroids come in form of "Waves", And their number increase by each wave as you destroy them to reach each wave (That's what makes it challenging)
 
